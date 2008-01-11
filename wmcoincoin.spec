@@ -71,17 +71,6 @@ install -m644 %{SOURCE11} -D %{buildroot}%{_miconsdir}/%{name}.png
 install -m644 %{SOURCE12} -D %{buildroot}%{_iconsdir}/%{name}.png
 install -m644 %{SOURCE13} -D %{buildroot}%{_liconsdir}/%{name}.png
 
-install -d %{buildroot}%{_menudir}
-cat << EOF > %{buildroot}%{_menudir}/%{name}
-?package(%{name}): \
-	command="%{_bindir}/%{name}" \
-	icon="%{name}.png" \
-	needs="x11" \
-	section="Internet/Chat" \
-	title="Wmcoincoin" \
-	longtitle="%{Summary}" \
-	xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -110,7 +99,6 @@ rm -rf %{buildroot}
 %doc README NEWS AUTHORS ChangeLog
 %{_bindir}/*
 %{_datadir}/%{name}
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_miconsdir}/%{name}.png
 %{_iconsdir}/%{name}.png

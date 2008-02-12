@@ -40,16 +40,19 @@ consumption.
 
 
 %description -l fr
-La fonctionnalité centrale (le gros bouton rouge), permet de poster "coin coin!"
-sur la tribune libre. Autour de ce bouton, différentes fonctionnalités annexes gravitent:
+La fonctionnalité centrale (le gros bouton rouge), permet de poster "coin
+coin!" sur la tribune libre. Autour de ce bouton, différentes fonctionnalités
+annexes gravitent:
 * Affichage de l'heure du dernier post sur la tribune
 * Affichage défilant des titres des dernières news de DaLinuxFrenchPage
-Visionnage du contenu des news (sans les commentaires)
+  Visionnage du contenu des news (sans les commentaires)
 * Trollometre incorporé, de qualité professionnelle.
-* Un véritable Trolloscope d'un modèle proche de celui qui équipe les services secrets chinois.
+* Un véritable Trolloscope d'un modèle proche de celui qui équipe les services
+  secrets chinois.
 * Des ballons d'aide pour toujours plus de convivialité.
 * Des stats sur le nombre de personnes qui fréquentent la tribune.
-* Le Palmipède Editor qui permet d'éditer le messages/useragent à poster avec un confort maximal.
+* Le Palmipède Editor qui permet d'éditer le messages/useragent à poster avec
+  un confort maximal.
 * Une fonction flamophone, parce que vous le valez bien.
 * Le Pinnipède Télétype, un véritable outil de décideur.
 

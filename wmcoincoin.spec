@@ -2,7 +2,7 @@
 %define Summary	WindowMaker dock application for linuxfr-addicted people
 %define version	2.5.1
 %define pre	d
-%define release	%mkrel 0.%{pre}.2
+%define release	%mkrel 0.%{pre}.3
 
 Name:		%{name}
 Version:	%{version}

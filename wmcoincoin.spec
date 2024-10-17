@@ -13,7 +13,7 @@ Source0:	http://ufpr.dl.sourceforge.net/sourceforge/dacode/%{name}-%{version}%{p
 Source11:	%{name}-icon-16.png
 Source12:	%{name}-icon-32.png
 Source13:	%{name}-icon-48.png
-URL:		http://hules.free.fr/wmcoincoin/wmcoincoin.html
+URL:		https://hules.free.fr/wmcoincoin/wmcoincoin.html
 Group:		Networking/Chat
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	gtk2-devel

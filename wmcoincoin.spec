@@ -16,6 +16,11 @@ Source13:	%{name}-icon-48.png
 URL:		https://hules.free.fr/wmcoincoin/wmcoincoin.html
 Group:		Networking/Chat
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	gtk2-devel
 BuildRequires:	imlib2-devel
 BuildRequires:	freetype-devel
